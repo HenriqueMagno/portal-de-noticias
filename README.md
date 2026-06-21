@@ -2,8 +2,7 @@ Portal de Notícias
 
 Preview
 
-[Preview do Projeto](assets/portal-noticias.png)
-[Preview do Projeto](assets/portal-noticias2.png)
+[Preview do Projeto](assets/portal-noticias.png )
 
 Projeto desenvolvido durante os estudos da Rocketseat com foco em HTML e CSS.
 
