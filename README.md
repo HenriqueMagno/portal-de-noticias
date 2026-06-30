@@ -1,5 +1,7 @@
 Portal de Notícias
 
+Link: https://henriquemagno.github.io/portal-de-noticias/
+
 Preview
 
 [Preview do Projeto](assets/portal-noticias.png )
