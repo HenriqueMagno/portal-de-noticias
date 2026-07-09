@@ -23,4 +23,4 @@ Este projeto consiste em uma página de portal de notícias, desenvolvida para p
 Tecnologias Utilizadas
 
 - HTML
-- CSS
+- CSS3
