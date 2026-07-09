@@ -1,10 +1,13 @@
+Projeto desenvolvido durante os estudos da Rocketseat com foco em HTML e CSS.
+
 Portal de Notícias
 
 Link: https://henriquemagno.github.io/portal-de-noticias/
 
 Preview
 
-[Preview do Projeto](assets/portal-noticias.png )
+<img src="./assets/portal-noticias.png" alt="Preview do portal de notícias">
+<img src="./assets/portal-noticias2.png" alt="Preview do portal de notícias">
 
 Projeto desenvolvido durante os estudos da Rocketseat com foco em HTML e CSS.
 
