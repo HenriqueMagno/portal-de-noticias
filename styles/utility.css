@@ -34,3 +34,14 @@
 .text-sm {
     font: var(--text-sm);
 }
+
+/* iPhone 6/7/8 (375x667) */
+@media (max-width: 23.4375rem) {
+    .gap-32 {
+        gap: 24px;
+    }
+
+    .gap-16 {
+        gap: 12px;
+    }
+}

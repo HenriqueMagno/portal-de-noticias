@@ -76,3 +76,22 @@ main {
     color: var(--text-color-primary);
     box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
 }
+
+/* iPhone 6/7/8 (375x667) */
+@media (max-width: 23.4375rem) {
+    .container {
+        padding-inline: 16px;
+    }
+
+    /* layout de colunas fixas -> uma coluna empilhada */
+    main {
+        margin-block: 24px;
+        row-gap: 40px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "featured"
+            "weekly"
+            "ai"
+            "aside";
+    }
+}

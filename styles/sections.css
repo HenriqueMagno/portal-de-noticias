@@ -121,3 +121,38 @@ aside {
         object-fit: cover;
     }
 }
+
+/* iPhone 6/7/8 (375x667) */
+@media (max-width: 23.4375rem) {
+    /* destaque: card grande e grid 2x2 empilham */
+    #featured {
+        grid-auto-flow: row;
+    }
+
+    #featured > .card img {
+        height: 240px;
+    }
+
+    #featured .grid-cols-2 img {
+        height: 140px;
+    }
+
+    /* 4 colunas fixas de 292px nao cabem -> 2 colunas fluidas */
+    #weekly > div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #weekly img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* artigos de IA: texto e imagem empilhados */
+    #ai article {
+        grid-auto-flow: row;
+    }
+
+    #ai img {
+        width: 100%;
+    }
+}

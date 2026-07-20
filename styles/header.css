@@ -1,20 +1,20 @@
 #primary {
     padding-block: 20px;
-}
 
-#primary div {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
+    div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 
-/* nesting css converted to valid CSS */
-#primary div:nth-child(2) {
-    margin-inline: auto;
-}
+    /* nesting css */
+    div:nth-child(2) {
+        margin-inline: auto;
+    }
 
-#primary div:nth-child(3) {
-    justify-self: end;
+    div:nth-child(3) {
+        justify-self: end;
+    }
 }
 
 #secondary {
@@ -25,7 +25,6 @@
 }
 
 @media (min-width: 23.4375rem) {
-    /* adjust padding for primary direct child divs at larger screens */
     #primary > div {
         padding: 8.75rem 5rem;
     }
@@ -37,12 +36,13 @@
 
 /* iPhone 6/7/8 (375x667) */
 @media (max-width: 23.4375rem) {
-    .container {
-        padding-inline: 16px;
-    }
-
     #primary {
         padding-block: 16px;
+    }
+
+    /* anula o padding de 8.75rem herdado do bloco min-width */
+    #primary > div {
+        padding: 0;
     }
 
     #primary div {
