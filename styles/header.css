@@ -24,25 +24,10 @@
     justify-content: space-between;
 }
 
-@media (min-width: 23.4375rem) {
-    #primary > div {
-        padding: 8.75rem 5rem;
-    }
-
-    #primary > div:nth-child(2) {
-        max-width: 41.68rem;
-    }
-}
-
 /* iPhone 6/7/8 (375x667) */
 @media (max-width: 23.4375rem) {
     #primary {
         padding-block: 16px;
-    }
-
-    /* anula o padding de 8.75rem herdado do bloco min-width */
-    #primary > div {
-        padding: 0;
     }
 
     #primary div {
